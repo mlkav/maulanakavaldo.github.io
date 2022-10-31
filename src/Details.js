@@ -60,7 +60,7 @@ export const workDetails = [
   },
   {
     Position: "Internship",
-    Company: `Company Name here`,
+    Company: `BTPN`,
     Location: "Bengaluru",
     Type: "Internship",
     Duration: "Sep 2021 - Dec 2021",
