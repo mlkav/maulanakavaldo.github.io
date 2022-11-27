@@ -31,7 +31,4 @@ echo '
     </div>
 </body>
 </html>
-
-
-
 ';
