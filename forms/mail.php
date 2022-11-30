@@ -1,13 +1,13 @@
 <?php
 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+$name = $_Get['name'];
+$email = $_Get['email'];
+$subject = $_Get['subject'];
+$message = $_Get['message'];
 
 $mailheader = "From:" . $name . "<" . $email . ">\r\n";
 
-$recipient = "alkav.maulana@gmail.com";
+$recipient = "alkavmaulana@gmail.com";
 
 mail($recipient, $subject, $message, $mailheader) or die("Error!");
 
