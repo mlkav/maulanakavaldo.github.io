@@ -44,16 +44,76 @@
           <div class="portfolio-details-slider swiper">
             <div class="swiper-wrapper align-items-center">
 
-              <?php
-              $a = count(glob("../assets/img/portfolio/thk/*.png", GLOB_BRACE));
+              <!-- <?php
+                    $a = count(glob("../assets/img/portfolio/thk/*.png", GLOB_BRACE));
 
-              for ($x = 1; $x <= $a; $x++) {
-                echo '<div class="swiper-slide">';
-                echo '<img src="../assets/img/portfolio/thk/Slide' . $x . '.png" alt="churn prediction" />';
-                echo '</div>';
-              }
+                    for ($x = 1; $x <= $a; $x++) {
+                      echo '<div class="swiper-slide">';
+                      echo '<img src="../assets/img/portfolio/thk/Slide' . $x . '.png" alt="churn prediction" />';
+                      echo '</div>';
+                    }
 
-              ?>
+                    ?> -->
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide1.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide2.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide3.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide4.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide5.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide6.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide7.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide8.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide9.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide10.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide11.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide12.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide13.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide14.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/thk/Slide15.png" alt="Tri Hita Karana Future Knowledge" />
+              </div>
 
               <div class="swiper-pagination"></div>
             </div>

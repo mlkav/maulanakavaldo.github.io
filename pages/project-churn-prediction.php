@@ -1,3 +1,9 @@
+<?php
+$a = count(glob("../assets/img/portfolio/churn-prediction/*.png", GLOB_BRACE));
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,14 +51,84 @@
             <div class="swiper-wrapper align-items-center">
 
               <?php
-              $a = count(glob("../assets/img/portfolio/churn-prediction/*.png", GLOB_BRACE));
-
               for ($x = 1; $x <= $a; $x++) {
                 echo '<div class="swiper-slide">';
                 echo '<img src="../assets/img/portfolio/churn-prediction/Slide' . $x . '.png" alt="churn prediction" />';
                 echo '</div>';
               }
               ?>
+
+              <!-- <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide1.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide2.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide3.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide4.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide5.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide6.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide7.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide8.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide9.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide10.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide11.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide12.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide13.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide14.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slid15e.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide16.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide17.png" alt="churn prediction" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/portfolio/churn-prediction/Slide18.png" alt="churn prediction" />
+              </div> -->
 
             </div>
             <div class="swiper-pagination"></div>
