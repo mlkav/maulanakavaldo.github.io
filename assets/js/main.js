@@ -197,6 +197,31 @@
       }, true);
     }
 
+    // galery
+    let galeryContainer = select('.galery-container');
+    if (galeryContainer) {
+      let galeryIsotope = new Isotope(galeryContainer, {
+        itemSelector: '.galery-item'
+      });
+
+      let galeryFilters = select('#galery-flters li', true);
+
+      on('click', '#portfolio-flters li', function(e) {
+        e.preventDefault();
+        galeryFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        galeryIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        galeryIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
   });
 
   /**
