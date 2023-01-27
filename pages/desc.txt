@@ -1,0 +1,11 @@
+Proyek "Telecom Churn Prediction" adalah proyek yang bertujuan untuk memprediksi tingkat churn (keluar) pelanggan di industri telekomunikasi. Tujuan dari proyek ini adalah untuk membantu perusahaan telekomunikasi mengidentifikasi pelanggan yang memiliki kemungkinan besar untuk meninggalkan layanan mereka, sehingga perusahaan dapat mengambil tindakan preventif untuk mengurangi tingkat churn.
+
+Untuk mencapai tujuan tersebut, proyek ini akan mengumpulkan dan menganalisis data pelanggan, termasuk informasi demografis, data penggunaan layanan, dan data transaksi. Kemudian, teknik analisis data seperti machine learning akan digunakan untuk membangun model prediksi churn yang akurat.
+
+Hasil dari proyek ini diharapkan dapat memberikan wawasan kepada perusahaan telekomunikasi tentang faktor-faktor yang mempengaruhi tingkat churn pelanggan, sehingga perusahaan dapat mengambil tindakan yang tepat untuk mengurangi churn dan mempertahankan pelanggan yang ada. Proyek ini juga diharapkan dapat meningkatkan efisiensi perusahaan dengan membantu mengalokasikan sumber daya secara lebih efektif kepada pelanggan yang lebih mungkin untuk tetap bersama perusahaan.
+
+The "Telecom Churn Prediction" project is a project aimed at predicting churn (departure) rates of customers in the telecommunications industry. The goal of this project is to help telecommunications companies identify customers who are likely to leave their services, so that the company can take preventive measures to reduce churn rates.
+
+To achieve this goal, the project will collect and analyze customer data, including demographic information, service usage data, and transaction data. Then, data analysis techniques such as machine learning will be used to build accurate churn prediction models.
+
+The results of this project are expected to provide insights to telecommunications companies about the factors that influence customer churn rates, so that the company can take the right actions to reduce churn and retain existing customers. This project is also expected to increase company efficiency by helping to allocate resources more effectively to customers who are more likely to stay with the company.
