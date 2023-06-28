@@ -1,6 +1,6 @@
 # Maulana Kavaldo | Portfolio Landing Page Resume
 
-#   Student at:
+###   Student at:
 - AWS re/Start Batch 5  (27 Mart - 23 June 2023)
 
 - Digital Talent Scholarship:
@@ -18,7 +18,7 @@
 - Future Skill Axiata Future Leaders Student (XLFL) - Universitas Gadjah Mada
 
 
-#  Certificated
+###  Certificated
 
 - DTS: PROA Google Cloud Fundamental
 - Alibaba Cloud Security
@@ -31,9 +31,6 @@
 - Rapid Miner
 - Bitdegree
 - Udemy
-
-
-
 
 
 
