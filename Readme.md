@@ -1,10 +1,13 @@
-# Maulana Kavaldo Portfolio Landing Page Portfolio
+# Maulana Kavaldo | Portfolio Landing Page Resume
 
-- AWS re/Start Batch 5 [April - June 2023]
+#   Student at:
+- AWS re/Start Batch 5  (27 Mart - 23 June 2023)
 
 - Digital Talent Scholarship:
-  - FGA: Data Science Batch 4 2022 (Binar Academy) [September - October 2023]
-  - PROA: Google Cloud Fundamental (Google) [Maret - April 2023]
+  - FGA: Data Science Batch 4 | Binar Academy (19 Sep - 28 Oct 2022)
+  - PROA: Google Cloud Fundamental | Google (3 Mar - 14 Apr 2023)
+
+- Green Digital Skills Inco Academy
 
 - Virtual Internship Experience Program (VIX) Rakamin Academy
   - Data Scientist - Home Credit Indonesia 
@@ -13,7 +16,6 @@
   - Big data Analytics - Kimia Farma
 
 - Future Skill Axiata Future Leaders Student (XLFL) - Universitas Gadjah Mada
-
 
 
 #  Certificated
@@ -30,11 +32,7 @@
 - Bitdegree
 - Udemy
 
-#  Student at:
-- AWS re/Start Batch 5
-- DTS: PROA Google Cloud Fundamental
-- DTS: FGA Data Scientist
-- Green Digital Skills Inco Academy
+
 
 
 
