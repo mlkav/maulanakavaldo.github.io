@@ -206,7 +206,7 @@
 
       let galeryFilters = select('#galery-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#galery-flters li', function(e) {
         e.preventDefault();
         galeryFilters.forEach(function(el) {
           el.classList.remove('filter-active');
