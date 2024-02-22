@@ -1,0 +1,120 @@
+https://aws-tc-largeobjects.s3-us-west-2.amazonaws.com/ILT-TF-200-ACACAD-20-EN/Module-3-Challenge-Lab/static-website.zip
+https://aws-tc-largeobjects.s3-us-west-2.amazonaws.com/ILT-TF-200-ACACAD-20-EN/Module-3-Challenge-Lab/static-website.zip
+
+
+          <!-- Data Science Project -->
+
+          <!-- 
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/project-british-airways-reviews/british-airways.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>  </h4>
+                <div class="portfolio-links">
+                  <a href="pages/project-british-airways-reviews.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Show Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/project-customers-segmentation-online-retail/customers-segmentation-online-retail.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>  </h4>
+                <div class="portfolio-links">
+                  <a href="pages/project-customers-segmentation-online-retail.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Show Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/project-home-credit/home-credit.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>  </h4>
+                <div class="portfolio-links">
+                  <a href="pages/project-home-credit.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Show Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/project-mushroom-classification/mushroom-classification.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>  </h4>
+                <div class="portfolio-links">
+                  <a href="pages/project-mushroom-classification.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Show Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/project-rainfall-australia/rainfall-australia.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>  </h4>
+                <div class="portfolio-links">
+                  <a href="pages/project-rainfall-australia.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Show Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/project-real-estate-price/real-estate.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>  </h4>
+                <div class="portfolio-links">
+                  <a href="pages/project-real-estate-price.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Show Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> 
+        
+          -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/project-bank-churned/bank-churned.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>  </h4>
+                <div class="portfolio-links">
+                  <a href="pages/project-bank-churned.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Show Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+
+
+<!-- <div class="col-lg-4 col-md-6 portfolio-item filter-java">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/java-book-store/slide-0.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Book Store</h4>
+                <div class="portfolio-links">
+                  <a href="pages/java-book-store.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Show Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
