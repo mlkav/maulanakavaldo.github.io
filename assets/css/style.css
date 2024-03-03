@@ -146,11 +146,11 @@ body {
     }
   }
   
-  /* @media (min-width: 991px) {
+  @media (min-width: 991px) {
     #main {
-      margin-left: 100px;
+      margin-left: 50px;
     }
-  } */
+  }
   
   /*--------------------------------------------------------------
   # Navigation Menu
