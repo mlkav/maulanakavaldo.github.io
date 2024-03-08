@@ -776,9 +776,8 @@
               <div class=" portfolio-info">
                 <!-- <h4></h4> -->
                 <div class="portfolio-links">
-                  <a href="pages/project-banjir-jakarta.html"
-                    target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Show Details"><i class="bx bx-link"></i></a>
+                  <a href="pages/project-banjir-jakarta.html" target="_blank" class="portfolio-details-lightbox"
+                    data-glightbox="type: external" title="Show Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -1165,7 +1164,7 @@
 
         <div class="row galery-container" data-aos="fade-up" data-aos-delay="200">
 
-          
+
           <div id="coursera" class="col-lg-3 col-md-6 galery-item filter-data">
             <div class="portfolio-wrap">
               <img src="assets/img/certif_licen/coursera/gbi/Google Business Intelligence.png"
@@ -1178,7 +1177,7 @@
                 </div>
               </div>
             </div>
-          </div>    
+          </div>
 
           <div id="coursera" class="col-lg-3 col-md-6 galery-item filter-data">
             <div class="portfolio-wrap">
@@ -1192,7 +1191,7 @@
                 </div>
               </div>
             </div>
-          </div>    
+          </div>
 
           <div id="coursera" class="col-lg-3 col-md-6 galery-item filter-data">
             <div class="portfolio-wrap">
@@ -1206,7 +1205,7 @@
                 </div>
               </div>
             </div>
-          </div>        
+          </div>
 
           <div id="coursera" class="col-lg-3 col-md-6 galery-item filter-aws-saa filter-cloud">
             <div class="portfolio-wrap">
@@ -1411,8 +1410,8 @@
               <div class="portfolio-info">
                 <h4></h4>
                 <div class="portfolio-links">
-                  <a href="pages/gallery-prakerja.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Show Details"><i class="bx bx-link"></i></a>
+                  <a href="pages/gallery-prakerja.html" class="portfolio-details-lightbox"
+                    data-glightbox="type: external" title="Show Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -1791,7 +1790,7 @@
             </div>
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <!-- <div class="col-lg-8 mt-5 mt-lg-0">
             <form action="https://formspree.io/f/xqkjvepr" method="post">
               <div class="form-group mt-3">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
@@ -1800,12 +1799,50 @@
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <br>
-              <!-- <div class="g-recaptcha" data-sitekey="6LdOWkYjAAAAANLK2A8kK6Ph8RTWGril1hCAxy0g"></div> -->
+              <div class="g-recaptcha" data-sitekey="6LdOWkYjAAAAANLK2A8kK6Ph8RTWGril1hCAxy0g"></div>
               <br><br>
               <div class="text-center"><button type="submit" class="btn btn-primary" data-toggle="button"
                   aria-pressed="false" autocomplete="off">Send Message</button></div>
             </form>
+          </div> -->
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <form id="contactForm" action="https://formspree.io/f/xqkjvepr" method="post">
+              <div class="form-group mt-3">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message"
+                  required></textarea>
+              </div>
+              <br>
+              <div class="g-recaptcha" data-sitekey="6LeW20QjAAAAAErWy-YHigEpnA778lyB2lqY7fgm"></div>
+              <br><br>
+              <div class="text-center"><button type="submit" id="submitButton" class="btn btn-primary" disabled>Send
+                  Message</button></div>
+            </form>
           </div>
+
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const emailInput = document.getElementById("email");
+              const messageInput = document.getElementById("message");
+              const submitButton = document.getElementById("submitButton");
+
+              emailInput.addEventListener("input", validateForm);
+              messageInput.addEventListener("input", validateForm);
+
+              function validateForm() {
+                if (emailInput.value.trim() !== "" && messageInput.value.trim() !== "") {
+                  submitButton.disabled = false;
+                } else {
+                  submitButton.disabled = true;
+                }
+              }
+            });
+          </script>
+
+
         </div>
       </div>
     </section>
