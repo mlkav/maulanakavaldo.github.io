@@ -1825,29 +1825,26 @@
 
           <script>
             document.addEventListener("DOMContentLoaded", function () {
-                const emailInput = document.getElementById("email");
-                const messageInput = document.getElementById("message");
-                const submitButton = document.getElementById("submitButton");
-    
-                emailInput.addEventListener("input", validateForm);
-                messageInput.addEventListener("input", validateForm);
-    
-                function validateForm() {
-                    if (emailInput.value.trim() !== "" && messageInput.value.trim() !== "") {
-                        // Verifikasi reCAPTCHA
-                        const recaptchaResponse = grecaptcha.getResponse();
-                        if (recaptchaResponse !== "") {
-                            submitButton.disabled = false;
-                        } else {
-                            submitButton.disabled = true;
-                        }
-                    } else {
-                        submitButton.disabled = true;
-                    }
-                }
-            });
-        </script>
+              const emailInput = document.getElementById("email");
+              const messageInput = document.getElementById("message");
+              const submitButton = document.getElementById("submitButton");
 
+              emailInput.addEventListener("input", validateForm);
+              messageInput.addEventListener("input", validateForm);
+
+              function validateForm() {
+                const emailValue = emailInput.value.trim();
+                const messageValue = messageInput.value.trim();
+                const recaptchaResponse = grecaptcha.getResponse();
+
+                if (emailValue !== "" && messageValue !== "" && recaptchaResponse !== "") {
+                  submitButton.disabled = false;
+                } else {
+                  submitButton.disabled = true;
+                }
+              }
+            });
+          </script>
 
         </div>
       </div>
