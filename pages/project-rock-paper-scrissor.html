@@ -2,84 +2,129 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> Rock Paper Scrissor Image Classification </title>
-  <meta content="" name="description" />
-  <meta content="" name="keywords" />
+  <title>Maulana Kavaldo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta name="google-site-verification" content="SLhPwvXl2bw4QQGgEcSCxpZ04cM31-AURBADXqZps5Y" />
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon" />
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet" />
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="../assets/css/style.css" rel="stylesheet" />
-
-  <!-- =======================================================
-  * Template Name: MyResume - v4.9.2
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link href="../assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="https://maulanakavaldo.github.io" class="nav-link scrollto active"><i class="bx bx-home"></i>
+            <span>Home</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
   <main id="main">
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-        <div class="">
-          <div class="portfolio-details-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-              <!-- <?php
-              $a = count(glob("../assets/img/portfolio/thk/*.png", GLOB_BRACE));
-
-              for ($x = 1; $x <= $a; $x++) {
-                echo '<div class="swiper-slide">';
-                echo '<img src="../assets/img/portfolio/thk/Slide' . $x . '.png" alt="churn prediction" />';
-                echo '</div>';
-              }
-
-              ?> -->
-
-              <div class="swiper-slide">
-                <img src="../assets/img/portfolio/project-rock-paper-scrissor/rock_paper_scrissor.png" alt="" />
+        <div class="row align-items-stretch">
+          <!-- Bagian slider -->
+          <div class="col-md-6">
+            <div class="portfolio-info">
+              <div class="portfolio-details-slider swiper"> <!-- border border-primary -->
+                <div class="swiper-wrapper align-items-center">
+                  <!-- Tambahkan slide gambar di sini -->
+                  <div class="swiper-slide">
+                    <img src="../assets/img/portfolio/project-rock-paper-scrissor/rock_paper_scrissor.png" alt=""
+                      data-gallery="portfolioGallery" class="portfolio-lightbox" role="button" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
               </div>
-
             </div>
-            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- Bagian informasi proyek -->
+          <div class="col-md-6">
+            <div class="portfolio-info">
+              <h3>Project Information</h3>
+              <ul class="list-group">
+                <li class="list-group-item d-flex">
+                  <div class="col-3"><strong>Project name</strong></div>
+                  <div class="col-9">: Rock, Paper and Scrissor Classification</div>
+                </li>
+                <!-- Category -->
+                <li class="list-group-item d-flex">
+                  <div class="col-3"><strong>Category</strong></div>
+                  <div class="col-9">: Machine Learning, Image Classification</div>
+                </li>
+                <!-- Role -->
+                <li class="list-group-item d-flex">
+                  <div class="col-3"><strong>Role</strong></div>
+                  <div class="col-9">: Machine Learning Developer</div>
+                </li>
+                <!-- Project date -->
+                <li class="list-group-item d-flex">
+                  <div class="col-3">
+                    <strong>Project date</strong>
+                  </div>
+                  <div class="col-9">
+                    : September 2023
+                  </div><!-- Project tools -->
+                <li class="list-group-item d-flex">
+                  <div class="col-3">
+                    <strong>Tools</strong>
+                  </div>
+                  <div class="col-9">
+                    : Jupyter Notebook
+                  </div>
+                </li><!-- Project URL -->
+                <li class="list-group-item d-flex">
+                  <div class="col-3">
+                    <strong>Project URL</strong>
+                  </div>
+                  <div class="col-9">
+                    <a href="https://github.com/maulanakavaldo/dicoding_project" target="_blank">: GitHub</a>
+                  </div>
+                </li>
+                <!-- Uncomment and use as needed for other section -->
+                <!-- <li class="list-group-item d-flex">
+                    <div class="col-3"><strong>Demo</strong></div>
+                    <div class="col-9">
+                        <a href="#" target="_blank">: </a>
+                    </div>
+                </li> -->
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div class="">
+        <div class="col-lg-12 col-lg-6">
           <div class="portfolio-info">
-            <h3>Project Information</h3>
-            <ul>
-              <li>
-                <strong>Category</strong> : Machine Learning, Image Classification
-              </li>
-              <li><strong>Project date</strong> : September 2023</li>
-              <li>
-                <strong>Project URL</strong> :
-                <a href="https://github.com/maulanakavaldo/dicoding_project">Github</a>
-              </li>
-            </ul>
-            <br />
             <h3>Details</h3>
             <p>
               This project aims to develop an image classification model using TensorFlow to distinguish between three
@@ -93,7 +138,6 @@
               followed by fully connected layers for classification. Appropriate activation functions and techniques
               such as dropout will be implemented to enhance performance and reduce overfitting.
             </p>
-
             <p>
               Furthermore, the dataset will be divided into training and validation sets to evaluate the model's
               performance during training. The training process will involve parameter optimization through
@@ -101,14 +145,15 @@
               satisfactory accuracy on the validation set, further testing will be conducted using a separate test
               dataset.
             </p>
-
             <p>
               During the testing phase, the model will be evaluated based on multiple metrics, including accuracy,
               precision, recall, and F1 score. Error analysis will also be performed to understand areas where the model
               can be further improved. Finally, the trained model will be implemented in an application or user
               interface that allows users to test the model with their own rock, paper, and scissors images.
             </p>
-            <iframe src="https://maulanakavaldo.github.io/dicoding_project/Belajar%20Machine%20Learning%20Untuk%20Pemula/MaulanaKavaldo_Submission_RockPaperScissors.html" frameborder="0" style="width: 100%; height: 1000px;"></iframe>
+            <iframe
+              src="https://maulanakavaldo.github.io/dicoding_project/Belajar%20Machine%20Learning%20Untuk%20Pemula/MaulanaKavaldo_Submission_RockPaperScissors.html"
+              frameborder="0" style="width: 100%; height: 1000px;"></iframe>
           </div>
         </div>
       </div>

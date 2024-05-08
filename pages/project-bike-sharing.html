@@ -2,99 +2,152 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> Bike Sharing </title>
-  <meta content="" name="description" />
-  <meta content="" name="keywords" />
+  <title>Maulana Kavaldo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta name="google-site-verification" content="SLhPwvXl2bw4QQGgEcSCxpZ04cM31-AURBADXqZps5Y" />
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon" />
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet" />
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="../assets/css/style.css" rel="stylesheet" />
-
-  <!-- =======================================================
-  * Template Name: MyResume - v4.9.2
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link href="../assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="https://maulanakavaldo.github.io" class="nav-link scrollto active"><i class="bx bx-home"></i>
+            <span>Home</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
   <main id="main">
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-        <div class="">
-          <div class="portfolio-details-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-              <!-- <?php
-              $a = count(glob("../assets/img/portfolio/thk/*.png", GLOB_BRACE));
-
-              for ($x = 1; $x <= $a; $x++) {
-                echo '<div class="swiper-slide">';
-                echo '<img src="../assets/img/portfolio/thk/Slide' . $x . '.png" alt="churn prediction" />';
-                echo '</div>';
-              }
-
-              ?> -->
-
-              <div class="swiper-slide">
-                <img src="../assets/img/portfolio/project-bike-sharing/bike-sharing.png" alt="" />
+        <div class="row align-items-stretch">
+          <!-- Bagian slider -->
+          <div class="col-md-6">
+            <div class="portfolio-info">
+              <div class="portfolio-details-slider swiper"> <!-- border border-primary -->
+                <div class="swiper-wrapper align-items-center">
+                  <!-- Tambahkan slide gambar di sini -->
+                  <div class="swiper-slide">
+                    <img src="../assets/img/portfolio/project-bike-sharing/bike-sharing.png" alt=""
+                      data-gallery="portfolioGallery" class="portfolio-lightbox" role="button" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
               </div>
-
             </div>
-            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- Bagian informasi proyek -->
+          <div class="col-md-6">
+            <div class="portfolio-info">
+              <h3>Project Information</h3>
+              <ul class="list-group">
+                <li class="list-group-item d-flex">
+                  <div class="col-3"><strong>Project name</strong></div>
+                  <div class="col-9">: Bike Sharing</div>
+                </li>
+                <!-- Category -->
+                <li class="list-group-item d-flex">
+                  <div class="col-3"><strong>Category</strong></div>
+                  <div class="col-9">: Data Science, Python</div>
+                </li>
+                <!-- Role -->
+                <li class="list-group-item d-flex">
+                  <div class="col-3"><strong>Role</strong></div>
+                  <div class="col-9">: Data Scientist</div>
+                </li>
+                <!-- Project date -->
+                <li class="list-group-item d-flex">
+                  <div class="col-3">
+                    <strong>Project date</strong>
+                  </div>
+                  <div class="col-9">
+                    : September 2023
+                  </div><!-- Project tools -->
+                <li class="list-group-item d-flex">
+                  <div class="col-3">
+                    <strong>Tools</strong>
+                  </div>
+                  <div class="col-9">
+                    : Jupyter Notebook
+                  </div>
+                </li><!-- Project URL -->
+                <li class="list-group-item d-flex">
+                  <div class="col-3">
+                    <strong>Project URL</strong>
+                  </div>
+                  <div class="col-9">
+                    <a href="https://github.com/maulanakavaldo/dicoding_project" target="_blank">: GitHub</a>
+                  </div>
+                </li>
+                <!-- Uncomment and use as needed for other section -->
+                <!-- <li class="list-group-item d-flex">
+                  <div class="col-3"><strong>Demo</strong></div>
+                  <div class="col-9">
+                    <a href="#" target="_blank">: </a>
+                  </div>
+                </li> -->
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div class="">
+        <div class="col-lg-12 col-lg-6">
           <div class="portfolio-info">
-            <h3>Project Information</h3>
-            <ul>
-              <li>
-                <strong>Category</strong> : Data Scientist, Python
-              </li>
-              <li><strong>Project date</strong> : September 2023</li>
-              <li>
-                <strong>Project URL</strong> :
-                <a href="https://github.com/maulanakavaldo/dicoding_project" target="_blank">Github</a>
-              </li>
-            </ul>
-            <br />
             <h3>Details</h3>
             <p>
               Bike sharing systems are new generation of traditional bike rentals where whole process from membership,
-              rental and return back has become automatic. Through these systems, user is able to easily rent a bike from a particular
-              position and return back at another position. Currently, there are about over 500 bike-sharing programs around the world which
-              is composed of over 500 thousands bicycles. Today, there exists great interest in these systems due to their important
+              rental and return back has become automatic. Through these systems, user is able to easily rent a bike
+              from a particular
+              position and return back at another position. Currently, there are about over 500 bike-sharing programs
+              around the world which
+              is composed of over 500 thousands bicycles. Today, there exists great interest in these systems due to
+              their important
               role in traffic, environmental and health issues.
             </p>
             <p>
               Apart from interesting real world applications of bike sharing systems, the characteristics of data being
-              generated by  these systems make them attractive for the research. Opposed to other transport services such as bus or
-              subway, the duration of travel, departure and arrival position is explicitly recorded in these systems. This feature turns bike
-              sharing system into a virtual sensor network that can be used for sensing mobility in the city. Hence, it is expected that
+              generated by these systems make them attractive for the research. Opposed to other transport services such
+              as bus or
+              subway, the duration of travel, departure and arrival position is explicitly recorded in these systems.
+              This feature turns bike
+              sharing system into a virtual sensor network that can be used for sensing mobility in the city. Hence, it
+              is expected that
               most of important events in the city could be detected via monitoring these data.
-            </p>                 <iframe src="https://maulanakavaldo.github.io/dicoding_project/Belajar%20Analisis%20Data%20dengan%20Python/bike_sharing.html" frameborder="0" style="width: 100%; height: 1000px;"></iframe>
+            </p> <iframe
+              src="https://maulanakavaldo.github.io/dicoding_project/Belajar%20Analisis%20Data%20dengan%20Python/bike_sharing.html"
+              frameborder="0" style="width: 100%; height: 1000px;"></iframe>
           </div>
         </div>
       </div>
