@@ -30,6 +30,7 @@
 
     <!-- Template Main CSS File -->
     <link href="../assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -57,21 +58,36 @@
                     <div class="col-md-6">
                         <div class=""> <!-- portfolio-info Disini-->
                             <div class="portfolio-details-slider swiper"> <!-- border border-primary -->
-                                <div class="swiper-wrapper align-items-center">
+                                <div class="swiper-wrapper align-items-center" id="swiper-container">
                                     <!-- Tambahkan slide gambar di sini -->
-                                    <div class="swiper-slide">
-                                        <img src="../assets/img/portfolio/project-vix/dashboard-kimfar.png" alt=""
-                                            data-gallery="portfolioGallery" class="portfolio-lightbox" role="button" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="../assets/img/certif_licen/vix-kimfar.png" alt=""
-                                            data-gallery="portfolioGallery" class="portfolio-lightbox" role="button" />
-                                    </div>
                                 </div>
                                 <div class="swiper-pagination"></div>
                             </div>
                         </div>
                     </div>
+
+                    <script>
+                        // Looping sebanyak 9 kali
+                        for (let i = 0; i < 9; i++) {
+                            // Membuat element div untuk slide
+                            const slideDiv = document.createElement('div');
+                            slideDiv.classList.add('swiper-slide');
+
+                            // Membuat element img untuk gambar
+                            const img = document.createElement('img');
+                            img.src = `../assets/img/portfolio/project-vix/btpns/btpns-slide-${i + 1}.png`;
+                            img.alt = '';
+                            img.dataset.gallery = 'portfolioGallery';
+                            img.classList.add('portfolio-lightbox');
+                            img.setAttribute('role', 'button');
+
+                            // Menambahkan img ke slideDiv
+                            slideDiv.appendChild(img);
+
+                            // Menambahkan slideDiv ke dalam container
+                            document.getElementById('swiper-container').appendChild(slideDiv);
+                        }
+                    </script>
 
                     <!-- Bagian informasi proyek -->
                     <div class="col-md-6">
@@ -82,26 +98,26 @@
                                 <li class="list-group-item d-flex">
                                     <div class="col-3"><strong>Project name</strong></div>
                                     <div class=""><strong>:</strong>&nbsp;</div>
-                                    <div class="col-9">Sales at Kimia Farma</div>
+                                    <div class="col-9">Analysis of Credit Card Payments</div>
                                 </li>
                                 <!-- Category -->
                                 <li class="list-group-item d-flex">
                                     <div class="col-3"><strong>Category</strong></div>
                                     <div class=""><strong>:</strong>&nbsp;</div>
-                                    <div class="col-9">Big Data</div>
+                                    <div class="col-9">Data Engineer</div>
                                 </li>
                                 <!-- Role -->
                                 <li class="list-group-item d-flex">
                                     <div class="col-3"><strong>Role</strong></div>
                                     <div class=""><strong>:</strong>&nbsp;</div>
-                                    <div class="col-9">Big Data Analytics</div>
+                                    <div class="col-9">Data Engineer</div>
                                 </li>
                                 <!-- Company -->
                                 <li class="list-group-item d-flex">
                                     <div class="col-3"><strong>Company</strong></div>
                                     <div class=""><strong>:</strong>&nbsp;</div>
-                                    <div class="col-9">
-                                        <a href="" target="_blank">Kimia Farma</a>
+                                    <div class="col-9">Bank BTPN Syariah<a href="https://www.btpnsyariah.com/"
+                                            target="_blank"></a>
                                     </div>
                                 </li>
                                 <!-- Project date -->
@@ -110,7 +126,7 @@
                                         <strong>Project date</strong>
                                     </div>
                                     <div class=""><strong>:</strong>&nbsp;</div>
-                                    <div class="col-9">September 2022</div>
+                                    <div class="col-9">October 2022</div>
 
                                 </li>
                                 <!-- Project tools -->
@@ -119,7 +135,7 @@
                                         <strong>Tools</strong>
                                     </div>
                                     <div class=""><strong>:</strong>&nbsp;</div>
-                                    <div class="col-9">MySQL, Looker Studio</div>
+                                    <div class="col-9">Ms. SQL Server Integration Services (SSIS), Tableau </div>
                                 </li>
                                 <!-- Project URL -->
                                 <li class="list-group-item d-flex">
@@ -128,7 +144,7 @@
                                     </div>
                                     <div class=""><strong>:</strong>&nbsp;</div>
                                     <div class="col-9">
-                                        <a href="https://github.com/maulanakavaldo/Virtual-Internship/tree/main/Kimia%20Farma%20-%20Big%20Data%20Analytics"
+                                        <a href="https://github.com/maulanakavaldo/Virtual-Internship/tree/main/Bank%20BTPN%20Syariah%20-%20Data%20Engineer"
                                             target="_blank">GitHub</a>
                                     </div>
                                 </li>
@@ -137,10 +153,8 @@
                                     <div class="col-3"><strong>Link</strong></div>
                                     <div class=""><strong>:</strong>&nbsp;</div>
                                     <div class="col-9">
-                                        <a href="https://drive.google.com/file/d/1MXrWn5cO0Dffnap2oQyru9PdsRQXog7C/view?usp=sharing"
-                                            target="_blank">Presentation</a>,
-                                        <a href="https://datastudio.google.com/reporting/489efaa7-34e8-4374-bfec-d4aaab012eb0"
-                                            target="_blank">Dashboard</a>
+                                        <a href="https://drive.google.com/file/d/1rjLY6acAZg_b_8mo-6PyhFUFyzrSWQo7/view?usp=sharing"
+                                            target="_blank">Presentation</a>
                                     </div>
                                 </li>
                             </ul>
@@ -152,25 +166,15 @@
                     <div class=""> <!--portfolio-info-->
                         <h3>Details</h3>
                         <p>
-                            As a participant in the Kimia Farma Big Data Analytics Virtual Internship Program, I will
-                            get a comprehensive overview of the role of a Big Data Analyst in this leading
-                            pharmaceutical company. I will take part in a series of activities specifically designed to
-                            increase my understanding in solving problems and working on projects that are relevant to
-                            Kimia Farma's operational activities. I will start by studying reading materials and
-                            learning videos to update my knowledge about the skills needed in big data analysis and how
-                            Kimia Farma applies them. Next, I will be tested through a series of tests to measure my
-                            understanding in the field of Business Intelligence. The final stage of the program will
-                            confront me with a final project, where I will challenge myself to apply the knowledge I
-                            have previously acquired.
-                            <!-- I will use a variety of big data analysis concepts and techniques
-                            relevant to the context of pharmaceutical companies, and I will receive valuable feedback
-                            from the teaching team on the work I do. -->
+                            In this Virtual Internship, I will be introduced to the role of a Data Engineer at Bank BTPN
+                            Syariah. I have the opportunity to understand the responsibilities and master the skills
+                            needed in the sharia banking industry. I also learned to use skills such as SQL, T-SQL, and
+                            data visualization tools such as Tableau, which are an important part of developing IT
+                            services. Apart from that, I also learned how to use Microsoft SQL Server SSIS to integrate
+                            and manage data efficiently. Through the practical projects and tasks presented, I was able
+                            to produce solutions that were relevant to user needs and gained valuable experience in the
+                            context of the Islamic banking industry.
                         </p>
-
-                        <!-- <div id="loading-message" class="center">Loading...</div>
-                        <iframe src="" frameborder="0" style="width: 100%; height: 1000px;"
-                            onload="document.getElementById('loading-message').hidden = true;">
-                        </iframe> -->
                     </div>
                 </div>
             </div>
