@@ -1,4 +1,5 @@
 # Maulana Kavaldo | Portfolio Landing Page Resume
+<!--![favicon](https://github.com/user-attachments/assets/d9553d40-0186-486a-9dfa-d56fde27efb1) -->
 
 ###   Student at:
 - AWS re/Start Batch 5  (27 Mart - 23 June 2023)
