@@ -1,272 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-
+<!-- Homepage -->
 <url>
   <loc>https://mlkav.github.io/</loc>
   <lastmod>2025-06-21T09:11:46+00:00</lastmod>
   <priority>1.00</priority>
+  <changefreq>weekly</changefreq>
 </url>
+
+<!-- Project utama -->
 <url>
   <loc>https://mlkav.github.io/beverage-sales/</loc>
   <lastmod>2025-06-21T08:35:27+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
 </url>
+
 <url>
   <loc>https://mlkav.github.io/mlops-breast-cancer/</loc>
   <lastmod>2025-06-21T08:35:40+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
 </url>
+
 <url>
   <loc>https://mlkav.github.io/mlops-water-pipeline/</loc>
   <lastmod>2025-06-21T08:35:35+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
 </url>
+
 <url>
   <loc>https://mlkav.github.io/sentiment-analysis/</loc>
   <lastmod>2025-06-21T08:37:41+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
 </url>
+
 <url>
   <loc>https://mlkav.github.io/fruits-classification/</loc>
   <lastmod>2025-06-21T08:35:36+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
 </url>
+
 <url>
   <loc>https://mlkav.github.io/movie-recommendation-system/</loc>
   <lastmod>2025-06-21T08:35:36+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
 </url>
+
 <url>
   <loc>https://mlkav.github.io/car-price-prediction/</loc>
   <lastmod>2025-06-21T08:37:36+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
 </url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-vix-kalbe-nutritionals.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-banjir-jakarta.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-datacamp-real-time-insights-from-social-media-data.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-datacamp-exploring-67-years-of-lego.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-datacamp-the-android-app-market-on-google-play.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-datacamp-investigating-netflix-movies-and-guest-stars-in-the-office.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-datacamp-a-visual-history-of-nobel-prize-winners.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-datacamp-dr-semmelweis-and-the-discovery-of-handwashing.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-web-hc-system.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-e-commerce.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-next-movie-db.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-react-simple-app.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-bike-sharing.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-rock-paper-scrissor.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-bookshelf-api.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-web-server.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-vix-hci.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-vix-muamalat.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-automation-and-visualization.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-vix-btpns.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-thk.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-churn-prediction.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-european-hotel.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-vix-kimia-farma.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-emotion-recognition.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-food-sales.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-web-system-recommendation.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/project-web-practical-work.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/java-movie-ticketing.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/java-library.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/android-list.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/android-student-app.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/gallery-thk.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/gallery-rhel.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/gallery-prakerja.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/gallery-udemy.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mlkav.github.io/pages/gallery-rapid-miner.html</loc>
-  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
+<!-- Halaman detail notebook / subpages -->
 <url>
   <loc>https://mlkav.github.io/beverage-sales/notebook-class.html</loc>
   <lastmod>2025-06-21T08:35:27+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>yearly</changefreq>
 </url>
+
 <url>
   <loc>https://mlkav.github.io/sentiment-analysis/scraping.html</loc>
   <lastmod>2025-06-21T08:37:41+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>yearly</changefreq>
 </url>
+
+<!-- DataCamp Projects -->
 <url>
   <loc>https://mlkav.github.io/DataCamp/Real-time%20Insights%20from%20Social%20Media%20Data/Real-time%20Insights%20from%20Social%20Media%20Data.html</loc>
   <lastmod>2025-06-21T08:35:37+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>yearly</changefreq>
 </url>
+
 <url>
   <loc>https://mlkav.github.io/DataCamp/Exploring%2067%20years%20of%20LEGO/Exploring%2067%20years%20of%20LEGO.html</loc>
   <lastmod>2025-06-21T08:35:37+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>yearly</changefreq>
 </url>
+
 <url>
   <loc>https://mlkav.github.io/DataCamp/The%20Android%20App%20Market%20on%20Google%20Play/The%20Android%20App%20Market%20on%20Google%20Play.html</loc>
   <lastmod>2025-06-21T08:35:37+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>yearly</changefreq>
 </url>
+
 <url>
   <loc>https://mlkav.github.io/DataCamp/Investigating%20Netflix%20Movies%20and%20Guest%20Stars%20in%20The%20Office/Investigating%20Netflix%20Movies%20and%20Guest%20Stars%20in%20The%20Office.html</loc>
   <lastmod>2025-06-21T08:35:37+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>yearly</changefreq>
 </url>
+
 <url>
   <loc>https://mlkav.github.io/DataCamp/A%20Visual%20History%20of%20Nobel%20Prize%20Winners/A%20Visual%20History%20of%20Nobel%20Prize%20Winners.html</loc>
   <lastmod>2025-06-21T08:35:37+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>yearly</changefreq>
 </url>
 
+<!-- Pages Project -->
+<url>
+  <loc>https://mlkav.github.io/pages/project-vix-kalbe-nutritionals.html</loc>
+  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
+  <priority>0.70</priority>
+  <changefreq>yearly</changefreq>
+</url>
+
+<url>
+  <loc>https://mlkav.github.io/pages/project-banjir-jakarta.html</loc>
+  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
+  <priority>0.70</priority>
+  <changefreq>yearly</changefreq>
+</url>
+
+<url>
+  <loc>https://mlkav.github.io/pages/project-datacamp-real-time-insights-from-social-media-data.html</loc>
+  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
+  <priority>0.70</priority>
+  <changefreq>yearly</changefreq>
+</url>
+
+<!-- Halaman Galeri -->
+<url>
+  <loc>https://mlkav.github.io/pages/gallery-thk.html</loc>
+  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
+  <priority>0.50</priority>
+  <changefreq>yearly</changefreq>
+</url>
+
+<url>
+  <loc>https://mlkav.github.io/pages/gallery-rhel.html</loc>
+  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
+  <priority>0.50</priority>
+  <changefreq>yearly</changefreq>
+</url>
+
+<url>
+  <loc>https://mlkav.github.io/pages/gallery-prakerja.html</loc>
+  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
+  <priority>0.50</priority>
+  <changefreq>yearly</changefreq>
+</url>
+
+<url>
+  <loc>https://mlkav.github.io/pages/gallery-udemy.html</loc>
+  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
+  <priority>0.50</priority>
+  <changefreq>yearly</changefreq>
+</url>
+
+<url>
+  <loc>https://mlkav.github.io/pages/gallery-rapid-miner.html</loc>
+  <lastmod>2025-06-21T09:11:46+00:00</lastmod>
+  <priority>0.50</priority>
+  <changefreq>yearly</changefreq>
+</url>
 
 </urlset>
